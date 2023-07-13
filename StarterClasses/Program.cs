@@ -33,7 +33,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
       UpdateAvailability();
       if (available)
       {
-        Console.WriteLine("Using " + this.skillName);
+        Console.WriteLine($"Using {skillName}");
         this.cooldownProgress = 0;
       }
       else
@@ -60,6 +60,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
     {
       this.ProfessionalName = PlayerChosenName;
     }
+
     private string _professionalName = "enter username";
     public string ProfessionalName
     {
