@@ -1,4 +1,4 @@
-﻿namespace MyApp // Note: actual namespace depends on the project name.
+﻿namespace MyApp 
 {
     internal class Starters
     {
@@ -53,7 +53,6 @@
     {
         public string ProfessionalName { get; set; } = "enter username";
         public int Level { get; set; } = 1;
-
         public string Speciality { get; set; } = "beginner";
         public int HP { get; set; } = 100;
         public int MP { get; set; } = 50;
@@ -74,7 +73,6 @@
     {
         public string ProfessionalName { get; set; } = "enter username";
         public int Level { get; set; } = 5;
-
         public string Speciality { get; set; } = "worrier";
         public int HP { get; set; } = 140;
         public int MP { get; set; } = 70;
@@ -95,7 +93,6 @@
     {
         public string ProfessionalName { get; set; } = "enter username";
         public int Level { get; set; } = 5;
-
         public string Speciality { get;} = "archer";
         public int HP { get; set; } = 100;
         public int MP { get; set; } = 90;
